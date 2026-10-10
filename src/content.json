@@ -1,0 +1,18 @@
+{
+  "fps": 30,
+  "sectionSeconds": 3,
+  "width": 1080,
+  "height": 1920,
+  "prompt": "请帮我抓取对应图库",
+  "helperLabel": "CODEX",
+  "folderLabel": "候选图库",
+  "accent": "#d0ff54",
+  "sections": [
+    {"label":"真实成品", "title":["这张图，","只是其中一步。"], "caption":"找图 → 训练 → 生图 → 报告", "evidence":"找回的成品图 · 跨项目展示"},
+    {"label":"发出指令", "title":["重复的找图，","交给 AI 协助。"], "caption":"确定风格后，收集对应候选图", "evidence":"指令与界面为流程演示"},
+    {"label":"批量收集", "title":["先快一点，","再一张张补齐。"], "caption":"Codex 小人把候选图扔进文件夹", "evidence":"流程示意 · 图卡不是历史训练素材"},
+    {"label":"人工筛选", "title":["风格不一致，","就移出去。"], "caption":"我判断，小人演示移出的动作", "evidence":"筛选示意 · 人工判断仍然保留"},
+    {"label":"图像生成", "title":["筛选之后，","再训练、生图。"], "caption":"LoRA 训练 → Stable Diffusion", "evidence":"找回的成品图 · 跨项目展示"},
+    {"label":"整理交付", "title":["沿用结构，","填入这次内容。"], "caption":"图片 + 过程材料 + 文案", "evidence":"报告重新排版示意 · 非历史交付页"}
+  ]
+}

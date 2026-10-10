@@ -1,0 +1,11 @@
+node_modules/
+out/
+.remotion/
+dist/
+.DS_Store
+.env*
+*.log
+reference-private/
+*credentials*
+*token*
+binding-result.json
